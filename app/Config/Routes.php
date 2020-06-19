@@ -33,6 +33,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 //$routes->get('/', 'Home::index');
 $routes->get('/', 'Admin\Dashboard::index');
+$routes->get('/Admin/datamobil', 'Admin\DataMobil::index');
 $routes->get('user/dashboard', 'User\Dashboard::index');
 
 /**

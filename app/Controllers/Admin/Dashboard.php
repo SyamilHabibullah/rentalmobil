@@ -9,7 +9,12 @@ class Dashboard extends BaseController
 {
     public function index()
     {
-        return view('admin/template');
+        $data = [
+            'title' => 'Halaman Dashboard Admin'
+
+
+        ];
+        return view('admin/dashboard', $data);
     }
 
     //--------------------------------------------------------------------

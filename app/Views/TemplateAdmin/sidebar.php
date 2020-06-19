@@ -229,27 +229,27 @@
                 </div>
                 <ul class="sidebar-menu">
 
-                    <li><a class="nav-link" href="<?= base_url('admin/dashboard.php'); ?>">
+                    <li><a class="nav-link" href="<?= base_url('/admin/dashboard'); ?>">
                             <i class="fas fa-tachometer-alt"></i>
                             <span>Dashboard</span></a>
                     </li>
-                    <li><a class="nav-link" href="<?= base_url('admin/dataMobil.php'); ?>">
+                    <li><a class="nav-link" href="<?= base_url('/admin/datamobil'); ?>">
                             <i class="fas fa-car"></i>
                             <span>Data mobil</span></a>
                     </li>
-                    <li><a class="nav-link" href="<?= base_url('admin/dataTipe.php'); ?>">
+                    <li><a class="nav-link" href="<?= base_url('admin/dataTipe'); ?>">
                             <i class="fas fa-grip-horizontal"></i>
                             <span>Data Tipe</span></a>
                     </li>
-                    <li><a class="nav-link" href="<?= base_url('admin/dataUser.php'); ?>">
+                    <li><a class="nav-link" href="<?= base_url('admin/dataUser'); ?>">
                             <i class="fas fa-users"></i>
                             <span>Data Pelanggan</span></a>
                     </li>
-                    <li><a class="nav-link" href="<?= base_url('admin/dataTransaksi.php'); ?>">
+                    <li><a class="nav-link" href="<?= base_url('admin/dataTransaksi'); ?>">
                             <i class="fas fa-random"></i>
                             <span>Transaksi</span></a>
                     </li>
-                    <li><a class="nav-link" href="<?= base_url('admin/laporan.php'); ?>">
+                    <li><a class="nav-link" href="<?= base_url('admin/laporan'); ?>">
                             <i class="fas fa-clipboard-list"></i>
                             <span>Laporan</span></a>
                     </li>
